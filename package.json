@@ -1,20 +1,24 @@
 {
-  "name": "express-flash",
+  "name": "@gompa/express-flash",
   "version": "0.0.3",
   "description": "Flash Messages for your Express Application",
   "homepage": "https://github.com/RGBboy/express-flash",
-  "keywords": ["express", "flash", "messages"],
+  "keywords": [
+    "express",
+    "flash",
+    "messages"
+  ],
   "author": "RGBboy <me@rgbboy.com>",
-  "repository" : {
-    "type" : "git",
-    "url" : "http://github.com/RGBboy/express-flash"
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RGBboy/express-flash.git"
   },
   "main": "index",
   "engines": {
     "node": ">= 0.8.0"
   },
   "dependencies": {
-    "connect-flash": "0.1.x"
+    "@gompa/connect-flash": "0.1.x"
   },
   "devDependencies": {
     "express": "3.x.x",
@@ -23,9 +27,18 @@
     "superagent": "0.x.x",
     "should": "1.x.x"
   },
-  "scripts" : {
-    "test" : "make test",
-    "unit" : "make unit",
-    "spec" : "make spec"
-  }
+  "scripts": {
+    "test": "make test",
+    "unit": "make unit",
+    "spec": "make spec"
+  },
+  "bugs": {
+    "url": "https://github.com/RGBboy/express-flash/issues"
+  },
+  "directories": {
+    "example": "example",
+    "lib": "lib",
+    "test": "test"
+  },
+  "license": "ISC"
 }
